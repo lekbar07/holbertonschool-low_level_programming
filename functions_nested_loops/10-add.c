@@ -2,9 +2,10 @@
 #include <stdio.h>
 int main(void)
 {
-    int r;
+    int sum;
 
-    r = add(98, 1024);
-    printf("%d\n", r);
+    sum = add(3, 7);
+    printf("3 + 7 = %d\n", sum);
+
     return (0);
 }
