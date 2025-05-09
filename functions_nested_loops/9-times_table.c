@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * times_table - Prints the 9 times table, starting with 0
  */
@@ -14,7 +15,7 @@ void times_table(void)
 
             if (col == 0)
             {
-                _putchar(product + '0');  // first number in the row
+                _putchar(product + '0');
             }
             else
             {
@@ -36,3 +37,4 @@ void times_table(void)
         _putchar('\n');
     }
 }
+
