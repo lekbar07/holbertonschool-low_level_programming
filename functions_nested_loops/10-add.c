@@ -1,11 +1,5 @@
 #include "main.h"
-#include <stdio.h>
-int main(void)
+int add(int i, int j)
 {
-    int sum;
-
-    sum = add(3, 7);
-    printf("3 + 7 = %d\n", sum);
-
-    return (0);
+	return (i + j);
 }
